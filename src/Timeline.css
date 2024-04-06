@@ -1,0 +1,50 @@
+.timeline-section {
+    padding: 4rem 0;
+  }
+  
+  .timeline-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-event {
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .timeline-card {
+    background-color: #444;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .timeline-company {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-job {
+    font-size: 1.2rem;
+    color: #4e9af1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-summary {
+    color: #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .timeline-date,
+  .timeline-location {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
