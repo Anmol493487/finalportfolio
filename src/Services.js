@@ -20,9 +20,10 @@ export default function Services() {
   }, []);
 
   return (
-    <section id="services" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="flex flex-wrap -m-4">
+    <section className="se1" >
+      <h1>Service</h1>
+      <div className="se2">
+        <div className="se3">
           {services.map((service) => (
             <div key={service._id} className="service-card">
               <div className="service-content">

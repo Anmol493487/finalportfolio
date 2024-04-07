@@ -6,10 +6,13 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color:#fff;
   }
   
   .about-description {
     margin-bottom: 2rem;
+    color:#fff;
+    font-size: medium;
   }
   
   .about-button {
@@ -37,4 +40,53 @@
     width: 100%;
     border-radius: 8px;
   }
+  
+  .s1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.5rem; /* Equivalent to px-10 */
+    padding-right: 2.5rem; /* Equivalent to px-10 */
+    padding-top: 5rem; /* Equivalent to py-20 */
+    padding-bottom: 5rem; /* Equivalent to py-20 */
+  }
+  
+  @media (min-width: 768px) {
+    .s1 {
+      flex-direction: row; /* Equivalent to md:flex-row */
+    }
+    .s2 {
+      margin-bottom: 0; /* md:mb-0 */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .s1 {
+      flex-direction: column; /* Equivalent to flex-col */
+    }
+    .s2 {
+      justify-content: center; /* items-center */
+      text-align: center; /* text-center */
+    }
+    .s3 {
+      display: inline-block; /* lg:inline-block */
+    }
+  }
+  
+  .s2 {
+    display: flex; /* flex */
+    flex-grow: 1; /* lg:flex-grow */
+    width: 50%; /* md:w-1/2 */
+    padding-right: 1.5rem; /* lg:pr-24 */
+    padding-right: 1rem; /* md:pr-16 */
+    flex-direction: column; /* flex-col */
+    align-items: flex-start; /* md:items-start */
+    text-align: left; /* md:text-left */
+    margin-bottom: 1rem; /* mb-16 */
+  }
+  
+  .s3 {
+    display: none; /* hidden */
+  }
+  
   

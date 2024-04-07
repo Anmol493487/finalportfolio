@@ -15,7 +15,7 @@
   }
   
   .timeline-card {
-    background-color: #444;
+    background-color: #242323;
     padding: 1.5rem;
     border-radius: 8px;
   }
@@ -47,4 +47,28 @@
     font-size: 0.9rem;
     color: #999;
   }
+  /* Skills.css */
+
+.ti1 {
+  padding: 10px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* Skills.css */
+
+.ti2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* Skills.css */
+
+.ti3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -4px;
+}
+
   

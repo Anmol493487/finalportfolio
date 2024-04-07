@@ -34,4 +34,35 @@
     text-decoration: none;
     font-size: 1rem;
   }
-  
+  .social-media{
+    color: #ccc; /* text-gray-400 */
+    background-color: #111; /* bg-gray-900 */
+    font-family: sans-serif;
+  }
+  .container {
+    padding-left: 1.25rem; /* px-5 */
+    padding-right: 1.25rem; /* px-5 */
+    padding-top: 2.5rem; /* py-10 */
+    padding-bottom: 2.5rem; /* py-10 */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    text-align: center; /* text-center */
+}
+
+@media (min-width: 1024px) {
+    .lg\:px-40 {
+        padding-left: 10rem; /* lg:px-40 */
+        padding-right: 10rem; /* lg:px-40 */
+    }
+}
+.content1 {
+  display: flex; /* flex */
+  flex-direction: column; /* flex-col */
+  width: 100%; /* w-full */
+  margin-bottom: 5rem; /* mb-20 */
+}
+.r1 {
+  display: flex; /* flex */
+  flex-wrap: wrap; /* flex-wrap */
+  margin: -0.75rem; /* -m-4 */
+}

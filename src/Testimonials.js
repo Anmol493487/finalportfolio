@@ -33,7 +33,7 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials">
-      <div className="container px-5 py-10 mx-auto text-center">
+      <div className="ts1">
         <h1 className="testimonials-title">Client Testimonials</h1>
         <div className="testimonials-list">
           {testimonials.map((testimonial) => (

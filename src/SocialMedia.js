@@ -33,29 +33,28 @@ export default function SocialMedia() {
   }
 
   return (
-    <section id="social-media" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+    <section className="social-media">
+      <div className="container">
+        <div className="content1">
           <h1 className="social-media-title">Social Media Handles</h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="r1">
           {socialMediaData.map((socialMedia) => (
             <div className="social-media-card" key={socialMedia._id}>
               <div className="social-media-content">
-                <img
-                  src={socialMedia.image.url}
-                  alt={socialMedia.platform}
-                  className="social-media-image"
-                />
-                <h2 className="social-media-platform">{socialMedia.platform}</h2>
-                <a
-                  href={socialMedia.url}
-                  className="social-media-url"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {socialMedia.url}
-                </a>
+              <a
+              href={socialMedia.url}
+              className="social-media-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={socialMedia.image.url}
+                alt={socialMedia.platform}
+                className="social-media-image"
+              />
+              </a>
+<               h2 className="social-media-platform">{socialMedia.platform}</h2>
               </div>
             </div>
           ))}

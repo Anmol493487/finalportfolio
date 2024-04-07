@@ -33,11 +33,11 @@ export default function Timeline() {
 
   return (
     <section id="timeline" className="timeline-section">
-      <div className="container px-5 py-10 mx-auto text-center">
-        <div className="flex flex-col w-full mb-20">
+      <div className="ti1">
+        <div className="ti2">
           <h1 className="timeline-title">My Timeline</h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="ti3">
           {timelineData.map((event) => (
             <div className="timeline-event" key={event._id}>
               <div className="timeline-card">
