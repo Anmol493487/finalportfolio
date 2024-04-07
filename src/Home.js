@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Social from "./SocialMedia";
 import "./Home.css"; // Import your CSS file
 
 export default function Home() {
