@@ -31,10 +31,7 @@ export default function Home() {
   }
 
   return (
-    <section id="home" className="text-gray-400 bg-gray-400 body-font">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="flex flex-wrap -mx-4">
-          <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+    <section id="home" className="t1">
             <div className="home-container">
               <img
                 alt="Avatar"
@@ -50,9 +47,6 @@ export default function Home() {
               <p className="address">{userData.address}</p>
               <p className="phone">{userData.phoneNumber}</p>
               <p className="email">{userData.contactEmail}</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

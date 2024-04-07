@@ -1,34 +1,63 @@
 /* Navbar.css */
 
 .navbar {
-    background-color: #333; /* Change the background color */
-    color: #fff; /* Change the text color */
-    padding: 10px 20px; /* Adjust padding as needed */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar-brand {
-    font-size: 1.5rem; /* Adjust font size */
-  }
-  
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ff0;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 705px) {
   .navbar-menu {
-    list-style: none;
-    display: flex;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
   }
-  
+
+  .navbar-menu.open {
+      display: flex;
+  }
+
+  .navbar-toggle {
+      display: block;
+  }
+
   .navbar-item {
-    margin-right: 20px; /* Adjust spacing between items */
+      margin: 0;
   }
-  
-  .navbar-link {
-    color: #fff; /* Change link color */
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-link:hover {
-    color: #ff0; /* Change link color on hover */
-  }
-  
+}

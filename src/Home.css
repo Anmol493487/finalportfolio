@@ -1,24 +1,49 @@
+/* Home.css */
+
 .home-container {
-    background-color: #2d2d2d;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 35em; /* Adjusted width */
+  height:33em; /* Adjusted height */
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title,
+.subtitle,
+.description,
+.quote,
+.experience,
+.address,
+.phone,
+.email {
+  color: #ccc;
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 614px) {
   .avatar {
-    width: 33rem;
-    height: 30rem;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    border: 2px solid #ccc;
+    width: 20rem;
+    height: 18rem;
   }
-  
+
   .name {
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 1rem;
   }
-  
+
   .title,
   .subtitle,
   .description,
@@ -27,8 +52,27 @@
   .address,
   .phone,
   .email {
-    color: #ccc;
-    font-size: 0.875rem;
-    margin-bottom: 5px;
+    font-size: 0.75rem;
   }
-  
+}
+@media screen and (max-width: 365px) {
+  .avatar {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .name {
+    font-size: 0.5rem;
+  }
+
+  .title,
+  .subtitle,
+  .description,
+  .quote,
+  .experience,
+  .address,
+  .phone,
+  .email {
+    font-size: 0.75rem;
+  }
+}
